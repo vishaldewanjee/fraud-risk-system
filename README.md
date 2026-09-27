@@ -12,7 +12,7 @@ Place it in `data/raw/creditcard.csv`. The CSV is not included in this repositor
 ## Progress
 
 - [x] Exploratory data analysis
-- [ ] Feature engineering
+- [x] Feature engineering
 - [ ] Model training and evaluation
 - [ ] Risk scoring and explanations
 - [ ] API and dashboard
