@@ -1,0 +1,53 @@
+{
+    "model_name": "HistGradientBoosting",
+    "threshold": 0.6,
+    "target_column": "Class",
+    "feature_engineering": {
+        "log_amount": "log1p(Amount)"
+    },
+    "risk_levels": {
+        "low": "< 0.20",
+        "medium": "0.20 - < 0.60",
+        "high": "0.60 - < 0.80",
+        "critical": ">= 0.80"
+    },
+    "decisions": {
+        "low": "Approve",
+        "medium": "Monitor",
+        "high": "Manual Review",
+        "critical": "Block Transaction"
+    },
+    "feature_names": [
+        "Time",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5",
+        "V6",
+        "V7",
+        "V8",
+        "V9",
+        "V10",
+        "V11",
+        "V12",
+        "V13",
+        "V14",
+        "V15",
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20",
+        "V21",
+        "V22",
+        "V23",
+        "V24",
+        "V25",
+        "V26",
+        "V27",
+        "V28",
+        "Amount",
+        "log_amount"
+    ]
+}

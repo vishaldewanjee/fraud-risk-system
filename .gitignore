@@ -1,8 +1,22 @@
+# Virtual environment
 .venv/
+venv/
+
+# Python cache
 __pycache__/
-.ipynb_checkpoints/
+*.pyc
+
+# Environment variables
 .env
-data/raw/
-data/processed/
-models/
-reports/figures/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Large dataset
+data/raw/creditcard.csv
